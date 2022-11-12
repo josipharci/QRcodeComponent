@@ -21,6 +21,28 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+html{height: 100%;}
+
 body{
-   background:  hsl(220, 15%, 55%, 0.5);
+   background:  hsl(220, 15%, 55%, 0.3);
+   display: flex;
+   min-height: 100%;
+}
+
+.container{
+   width: 320px;
+   height: 500px;
+   background: hsl(0, 0%, 100%);
+   border-radius: 20px;
+   margin: auto;
+}
+
+.QRcode{
+   width:290px;
+   height:290px;
+   background: hsl(218, 44%, 22%);
+   border-radius: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
 }
