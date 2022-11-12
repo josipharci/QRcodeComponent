@@ -33,6 +33,7 @@ body{
    background:hsl(212, 45%, 89%);
    display: flex;
    min-height: 100%;
+   font-size: 15px;
 }
 
 .container{
@@ -74,4 +75,9 @@ body{
    font-size: 15px;
    padding-top: 20px;
    color: hsl(180, 3%, 66%);
+}
+
+.copyright{
+  text-align: center;
+  padding-top: 65px;
 }
