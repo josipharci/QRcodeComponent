@@ -21,6 +21,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/* Style */
+
 html{height: 100%;}
 
 body{
@@ -40,9 +46,28 @@ body{
 .QRcode{
    width:290px;
    height:290px;
-   background: hsl(218, 44%, 22%);
-   border-radius: 20px;
    margin-left: auto;
    margin-right: auto;
    margin-top: 15px;
+}
+
+.QRcode img{
+   width: 100%;
+   border-radius: 20px;
+}
+
+.content{
+   padding: 10px 25px 0 25px;
+   text-align: center;
+}
+
+.content h3{
+   font-family: 'Outfit', sans-serif;
+   font-weight: 700;
+}
+
+.content p{
+   font-family: 'Outfit', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
 }
