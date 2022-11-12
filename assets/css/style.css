@@ -30,7 +30,7 @@ time, mark, audio, video {
 html{height: 100%;}
 
 body{
-   background:  hsl(220, 15%, 55%, 0.3);
+   background:hsl(212, 45%, 89%);
    display: flex;
    min-height: 100%;
 }
@@ -64,10 +64,14 @@ body{
 .content h3{
    font-family: 'Outfit', sans-serif;
    font-weight: 700;
+   font-size:1.2rem;
+   padding-top: 10px;
 }
 
 .content p{
    font-family: 'Outfit', sans-serif;
    font-weight: 400;
    font-size: 15px;
+   padding-top: 20px;
+   color: hsl(180, 3%, 66%);
 }
